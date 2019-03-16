@@ -1,24 +1,25 @@
 # useful-windows-commands
 
 
-Network
+Network Troubleshooting
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
 <b>Reset TCP/IP commands:</b>
 
-Type netsh winsock reset and press Enter.
+netsh winsock reset
 
-Type netsh int ip reset and press Enter.
+netsh int ip reset
 
   
 <b>Reset the IP and obtain a new one:</b>
 
-Type ipconfig /release and press Enter.
+ipconfig /release
 
-Type ipconfig /renew and press Enter.
+ipconfig /renew
 
-Type ipconfig /flushdns and press Enter.
+ipconfig /flushdns
+
   
   ----------------------------------------------------------------------------------------------------------------------------------------
   
