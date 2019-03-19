@@ -32,10 +32,11 @@ Press WindowsKey and then type services, hit enter.
   
   Go to <b>Device Manager</b>, on <b>Network Adapters</b> right click and hit <b>Scan for changes</b>.
   Reboot and voila.
-  
+ 
+ 
+<b> Repairing Windows </b>
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-<b> Repairing Windows </b>
 
 sfc /scannow : Checks system files for possible damage and repairs it.
 
