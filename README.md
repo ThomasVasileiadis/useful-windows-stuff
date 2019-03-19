@@ -1,4 +1,4 @@
-# useful-windows-commands
+# useful-windows-stuff
 
 
 Network Troubleshooting
@@ -33,4 +33,12 @@ Press WindowsKey and then type services, hit enter.
   Go to <b>Device Manager</b>, on <b>Network Adapters</b> right click and hit <b>Scan for changes</b>.
   Reboot and voila.
   
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<b> Repairing Windows </b>
+
+sfc /scannow : Checks system files for possible damage and repairs it.
+
+scanreg /fix : Checks registry files for possible damage and repairs it.
+
 ----------------------------------------------------------------------------------------------------------------------------------------
