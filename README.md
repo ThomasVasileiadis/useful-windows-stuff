@@ -17,6 +17,14 @@ ipconfig /renew
 
 ipconfig /flushdns
 
+<b>Make internet conenction stable</b>
+
+netsh interface tcp show global
+
+netsh int tcp set global autotuninglevel=disabled
+
+netsh int tcp set global autotuninglevel=normal
+
   
 Disabling WAN drivers for good
   ----------------------------------------------------------------------------------------------------------------------------------------
