@@ -1,5 +1,5 @@
 **Network Troubleshooting**
-
+---------------------------------------------------------------------
 
 **Reset TCP/IP commands:**
 
@@ -39,6 +39,7 @@ Press WindowsKey and then type services, hit enter.
  
  
 **Repairing Windows**
+---------------------------------------------------------------
 
 sfc /scannow : Checks system files for possible damage and repairs it.
 
