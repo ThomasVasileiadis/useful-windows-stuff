@@ -1,10 +1,10 @@
 **Network Troubleshooting**
 ---------------------------------------------------------------------
 
-* **Reset TCP/IP commands:**
-1. netsh winsock reset
+**Reset TCP/IP commands:**
+* netsh winsock reset
 
-2. netsh int ip reset
+* netsh int ip reset
 
   
 **Reset the IP and obtain a new one:**
