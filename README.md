@@ -3,9 +3,9 @@
 
 **Reset TCP/IP commands:**
 
-netsh winsock reset
+* netsh winsock reset
 
-netsh int ip reset
+* netsh int ip reset
 
   
 **Reset the IP and obtain a new one:**
