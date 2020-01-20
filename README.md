@@ -1,15 +1,14 @@
-Network Troubleshooting
-----------------------------------------------------------------------------------------------------------------------------------------
+**Network Troubleshooting**
 
 
-<b>Reset TCP/IP commands:</b>
+**Reset TCP/IP commands:**
 
 netsh winsock reset
 
 netsh int ip reset
 
   
-<b>Reset the IP and obtain a new one:</b>
+**Reset the IP and obtain a new one:**
 
 ipconfig /release
 
@@ -17,7 +16,7 @@ ipconfig /renew
 
 ipconfig /flushdns
 
-<b>Make internet conenction stable</b>
+**Make internet conenction stable**
 
 netsh interface tcp show global
 
@@ -26,8 +25,8 @@ netsh int tcp set global autotuninglevel=disabled
 netsh int tcp set global autotuninglevel=normal
 
   
-Disabling WAN drivers for good
-  ----------------------------------------------------------------------------------------------------------------------------------------
+**Disabling WAN drivers for good**
+
   
 Press WindowsKey and then type services, hit enter. 
 
@@ -39,9 +38,7 @@ Press WindowsKey and then type services, hit enter.
   Reboot and voila.
  
  
-<b> Repairing Windows </b>
-----------------------------------------------------------------------------------------------------------------------------------------
-
+**Repairing Windows**
 
 sfc /scannow : Checks system files for possible damage and repairs it.
 
