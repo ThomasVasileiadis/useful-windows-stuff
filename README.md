@@ -41,3 +41,14 @@
 * scanreg /fix : (*Checks registry files for possible damage and repairs it.*)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+**Reformating Windows partition via terminal**
+--------------------------------------------------------------------
+* Shift + F10 (to open cmd)
+* DISKPART
+* LIST DISK
+* SELECT DISK #
+* CLEAN
+* CONVERT MBR
+* CREATE PARTITION PRIMARY SIZE=50000 (The size is in MB, so enter the amount that you want to use for your system partition)
+* FORMAT FS NTFS LABEL "SYSTEM" QUICK
