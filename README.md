@@ -51,3 +51,15 @@
 * CONVERT MBR
 * CREATE PARTITION PRIMARY SIZE=50000 (The size is in MB, so enter the amount that you want to use for your system partition)
 * FORMAT FS NTFS LABEL "SYSTEM" QUICK
+
+**Useful wordpress stuff**
+--------------------------------------------------------------------
+* Update the htaccess file in Wordpress
+* First install YOAST SEO
+* Go to tools and select edit
+* paste this 
+* php_value upload_max_filesize 128M
+php_value post_max_size 128M
+php_value memory_limit 256M
+php_value max_execution_time 300
+php_value max_input_time 300
